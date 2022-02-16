@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	color: white;
+	font-family: montserrat;
+}
+.mynavbar{
+	display: flex;
+	justify-content: center;
+	height: 2rem;
+}
+nav ul li{
+	display: inline-block;
+	font-family: monospace;
+}
+li a{
+	color: white;
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 3px 5px 3px 5px;
+	transition: .3s;
+}
+li:hover a{
+	color: black;
+	background-color: white;
+	border-color: white;
+    box-shadow: 0 0 15px white;
+    font-size: 2rem;
+}
+.text-danger{
+	text-shadow: 0 0 15px red;
+}
+#home div:hover a{
+	box-shadow: 0 0 15px white;
+}
+#home{
+	padding-top: 40vh;
+	height: 100vh;
+	background: rgb(71,71,71);
+	background: linear-gradient(357deg, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 100%);}
+#about_me{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgb(59,59,59);
+	background: linear-gradient(214deg, rgba(59,59,59,1) 0%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%);
+}
+#projects h3{
+	text-shadow:0 0 15px white;
+	margin-top: 50px;
+}
+#projects, #contacts{
+	min-height: 100vh;
+}
+#projects .container,#contacts .container{
+	padding-top: 10vh;
+}
+footer{
+
+	background: rgb(71,71,71);
+	background: linear-gradient(357deg, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 100%);}
+}
+
+
+
+
+
+
+.col img{
+	transition: .3s;
+	animation: pivot 3s infinite linear;
+
+}
+.row .col-5{
+	margin: auto;
+	animation: welcome 5s infinite linear;
+}
+footer{
+	font-size: 2vh;
+}
+footer div p{
+	font-size: 0.5rem;
+}
+footer div .links a{
+
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+
+	text-shadow:0 0 15px white ;
+	border-bottom: solid 1px white;
+}
+
+
+.fa-facebook, .fa-linkedin{
+  background: white;
+  color: black;
+}
+.fa {
+  text-decoration: none;
+  font-size: 1rem !important;
+
+}
+
+
+@keyframes welcome{
+	from{
+	}
+  65%{
+  	transform: translate(10px);
+  }
+    70%{
+   	text-shadow: 0 0 15px white;
+  }
+}
+
+
+
+@keyframes pivot{
+  25%{
+  	transform: rotate(-1deg);
+	transform-origin: 50% 100%;
+
+  }
+    50%{
+  	transform: rotate(0deg);
+	transform-origin: 50% 100%;
+
+  }
+
+}
