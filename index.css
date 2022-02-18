@@ -58,34 +58,22 @@ li:hover a{
 #projects .container,#contacts .container{
 	padding-top: 10vh;
 }
-footer{
-
-	background: rgb(71,71,71);
-	background: linear-gradient(357deg, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 100%);}
-}
-
-
-
-
-
-
-.col img{
+#about_me .sticky-top{
 	transition: .3s;
 	animation: pivot 3s infinite linear;
-
 }
 .row .col-5{
 	margin: auto;
 	animation: welcome 5s infinite linear;
 }
 footer{
-	font-size: 2vh;
+	background: rgb(71,71,71);
+	background: linear-gradient(357deg, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 100%);
 }
 footer div p{
 	font-size: 0.5rem;
 }
 footer div .links a{
-
 	text-decoration: none;
 	color: white;
 }
